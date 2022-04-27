@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nirmal Diary</title>
+  <!-- Bootstrap CDN -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+    integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous" />
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="./Assets/CSS/navbar.css" />
+  <link rel="stylesheet" href="./Assets/CSS/style.css" />
+  <link rel="stylesheet" href="./Assets/CSS/footer.css" />
+  <link rel="stylesheet" href="./Assets/CSS/about.css" />
+  <link rel="stylesheet" href="./Assets/CSS/product.css" />
+  <!-- favicon -->
+  <link rel="shortcut icon" href="./Assets/Img/diary-logo.png" type="image/x-icon" />
+  <!-- Bootstrap Icon -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" />
+  <!-- fontawosome cdn -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- flickticy cdn   -->
+  <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css" />
+  <!-- Animation Cdn -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <style>
+    .flickity-prev-next-button.next {
+      display: none;
+    }
+
+    .flickity-prev-next-button.previous {
+      display: none;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <section class="sticky-top">
+    <nav class="navbar navbar-expand-lg navbar-dark shadow">
+      <img src="./Assets/Img/diary-logo.png" alt="" class="logo" />
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span><i class="bi bi-list"></i></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto mx-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="About.html">About US</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-warning" href="#">Products</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Gallary.html">Gallary</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Project.html">Project</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="ContactUs.html">Contact Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Blog.html">Blog</a>
+          </li>
+          <span class="icon"><i class="bi bi-facebook"></i></span>
+          <span class="icon"><i class="bi bi-instagram"></i></span>
+          <span class="icon"><i class="bi bi-twitter"></i></span>
+        </ul>
+      </div>
+    </nav>
+  </section>
+
+  <!-- Product Banner -->
+  <section>
+    <div class="container-fluid">
+      <div class="row aboutbanner">
+        <div class="col-12 p-5 mt-2">
+          <h3 class="mt-5 text-center">Products</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Product -->
+  <section>
+    <div class="container-fluid mt-5">
+      <div class="row mt-5">
+        <div class="col-md-3 productbox1">
+          <h5>Nirmal Diary</h5>
+          <h6 class="mt-3">Products</h6>
+          <ul class="productlist">
+            <li class="milk">Milk</li>
+            <li class="butter">Butter</li>
+            <li class="cheese">Cheese</li>
+            <li class="panner">Panner</li>
+            <li class="dahi">Dahi</li>
+            <li class="ghee">Ghee</li>
+            <li class="mpowder">Milk Powder</li>
+            <li class="spred">Cheese Spreads</li>
+          </ul>
+        </div>
+        <div class="col-md-9 productbox2">
+          <!-- ***********************************Butter********************************************************* -->
+
+          <div class="main-carousel col-md-12" id="butter">
+            <div class="carousel-cell text-center">
+              <img src="./Assets/Img/product6.png" alt="" class="w-50 mt-4" />
+              <p>Nirmal Butter</p>
+              <p>&#8377;<del>100</del> <span class="ml-3 text-success">&#8377;90</span></p>
+              <!-- Button trigger modal -->
+              <button type="button" class="buy btn btn-primary" data-toggle="modal" data-target="#Butter">
+                View
+              </button>
+            </div>
+            <div class="carousel-cell text-center">
+              <img src="./Assets/Img/product6.png" alt="" class="w-50 mt-4" />
+              <p>Nirmal Butter</p>
+              <p>&#8377;<del>100</del> <span class="ml-3 text-success">&#8377;90</span></p>
+               <!-- Button trigger modal -->
+               <button type="button" class="buy btn btn-primary" data-toggle="modal" data-target="#Butter">
+                View
+              </button>
+            </div>
+            <div class="carousel-cell text-center">
+              <img src="./Assets/Img/product6.png" alt="" class="w-50 mt-4" />
+              <p>Nirmal Butter</p>
+              <p>&#8377;<del>100</del> <span class="ml-3 text-success">&#8377;90</span></p>
+               <!-- Button trigger modal -->
+               <button type="button" class="buy btn btn-primary" data-toggle="modal" data-target="#Butter">
+                View
+              </button>
+            </div>
+            <div class="carousel-cell text-center">
+              <img src="./Assets/Img/product6.png" alt="" class="w-50 mt-4" />
+              <p>Nirmal Butter</p>
+              <p>&#8377;<del>100</del> <span class="ml-3 text-success">&#8377;90</span></p>
+              <!-- Button trigger modal -->
+              <button type="button" class="buy btn btn-primary" data-toggle="modal" data-target="#Butter">
+                View
+              </button>
+            </div>
+          </div>
+
+
+          <!-- ***********************************Milk********************************************************* -->
+
+          <div class="main-carousel col-md-12" id="milk">
+            <div class="carousel-cell text-center">
+              <img src="./Assets/Img/product5.png" alt="" class="w-50 mt-5"  />
+              <p>Nirmal Milk</p>
+              <p>&#8377;<del>50</del> <span class="ml-3 text-success">&#8377;45</span></p>
+              <button type="button" class="buy btn btn-primary" data-toggle="modal" data-target="#Milk">
+                View
+              </button>
+            </div>
+            <div class="carousel-cell text-center">
+              <img src="./Assets/Img/product5.png" alt="" class="w-50 mt-5"  />
+              <p>Nirmal Milk</p>
+              <p>&#8377;<del>50</del> <span class="ml-3 text-success">&#8377;45</span></p>
+              <button type="button" class="buy btn btn-primary" data-toggle="modal" data-target="#Milk">
+                View
+              </button>
+            </div>
+            <div class="carousel-cell text-center">
+              <img src="./Assets/Img/product5.png" alt="" class="w-50 mt-5"  />
+              <p>Nirmal Milk</p>
+              <p>&#8377;<del>50</del> <span class="ml-3 text-success">&#8377;45</span></p>
+              <button type="button" class="buy btn btn-primary" data-toggle="modal" data-target="#Milk">
+                View
+              </button>
+            </div>
+            <div class="carousel-cell text-center">
+              <img src="./Assets/Img/product5.png" alt="" class="w-50 mt-5"  />
+              <p>Nirmal Milk</p>
+              <p>&#8377;<del>50</del> <span class="ml-3 text-success">&#8377;45</span></p>
+              <button type="button" class="buy btn btn-primary" data-toggle="modal" data-target="#Milk">
+                View
+              </button>
+            </div>
+          </div>
+
+          <!-- ***********************************Cheese********************************************************* -->
+
+          <div class="main-carousel col-md-12" id="cheese">
+            <div class="carousel-cell text-center">
+              <img src="./Assets/Img/acheese.png" alt="" class="w-50 mt-5"  />
+              <p>Nirmal Cheese</p>
+              <p>&#8377;<del>120</del> <span class="ml-3 text-success">&#8377;110</span></p>
+              <button type="button" class="buy btn btn-primary" data-toggle="modal" data-target="#Cheese">
+                View
+              </button>
+            </div>
+            <div class="carousel-cell text-center">
+              <img src="./Assets/Img/acheese.png" alt="" class="w-50 mt-5" />
+              <p>Nirmal Cheese</p>
+              <p>&#8377;<del>120</del> <span class="ml-3 text-success">&#8377;110</span></p>
+              <button type="button" class="buy btn btn-primary" data-toggle="modal" data-target="#Cheese">
+                View
+              </button>
+            </div>
+            <div class="carousel-cell text-center">
+              <img src="./Assets/Img/acheese.png" alt="" class="w-50 mt-5" />
+              <p>Nirmal Cheese</p>
+              <p>&#8377;<del>120</del> <span class="ml-3 text-success">&#8377;110</span></p>
+              <button type="button" class="buy btn btn-primary" data-toggle="modal" data-target="#Cheese">
+                View
+              </button>
+            </div>
+            <div class="carousel-cell text-center">
+              <img src="./Assets/Img/acheese.png" alt="" class="w-50 mt-5"  />
+              <p>Nirmal Cheese</p>
+              <p>&#8377;<del>120</del> <span class="ml-3 text-success">&#8377;110</span></p>
+              <button type="button" class="buy btn btn-primary" data-toggle="modal" data-target="#Cheese">
+                View
+              </button>
+            </div>
+          </div>
+
+          <!-- ***********************************Panner********************************************************* -->
+
+          <div class="main-carousel col-md-12" id="panner">
+            <div class="carousel-cell text-center">
+              <img src="./Assets/Img/panner.png" alt="" class="w-50 mt-5"  />
+              <p>Nirmal Panner</p>
+              <p>&#8377;<del>150</del> <span class="ml-3 text-success">&#8377;140</span></p>
+              <button type="button" class="buy btn btn-primary" data-toggle="modal" data-target="#Panner">
+                View
+              </button>
+            </div>
+            <div class="carousel-cell text-center">
+              <img src="./Assets/Img/panner.png" alt="" class="w-50 mt-5"  />
+              <p>Nirmal Panner</p>
+              <p>&#8377;<del>150</del> <span class="ml-3 text-success">&#8377;140</span></p>
+              <button type="button" class="buy btn btn-primary" data-toggle="modal" data-target="#Panner">
+                View
+              </button>
+            </div>
+            <div class="carousel-cell text-center">
+              <img src="./Assets/Img/panner.png" alt="" class="w-50 mt-5" />
+              <p>Nirmal Panner</p>
+              <p>&#8377;<del>150</del> <span class="ml-3 text-success">&#8377;140</span></p>
+              <button type="button" class="buy btn btn-primary" data-toggle="modal" data-target="#Panner">
+                View
+              </button>
+            </div>
+            <div class="carousel-cell text-center">
+              <img src="./Assets/Img/panner.png" alt="" class="w-50 mt-5" />
+              <p>Nirmal Panner</p>
+              <p>&#8377;<del>150</del> <span class="ml-3 text-success">&#8377;140</span></p>
+              <button type="button" class="buy btn btn-primary" data-toggle="modal" data-target="#Panner">
+                View
+              </button>
+            </div>
+          </div>
+
+          <!-- ***********************************dahi********************************************************* -->
+
+          <div class="main-carousel col-md-12" id="dahi">
+            <div class="carousel-cell text-center">
+              <img src="./Assets/Img/dahi.png" alt="" class="w-50 mt-5" />
+              <p>Nirmal Dahi</p>
+              <p>&#8377;<del>40</del> <span class="ml-3 text-success">&#8377;35</span></p>
+              <button type="button" class="buy btn btn-primary" data-toggle="modal" data-target="#Dahi">
+                View
+              </button>
+            </div>
+            <div class="carousel-cell text-center">
+              <img src="./Assets/Img/dahi.png" alt="" class="w-50 mt-5" />
+              <p>Nirmal Dahi</p>
+              <p>&#8377;<del>40</del> <span class="ml-3 text-success">&#8377;35</span></p>
+              <button type="button" class="buy btn btn-primary" data-toggle="modal" data-target="#Dahi">
+                View
+              </button>
+            </div>
+            <div class="carousel-cell text-center">
+              <img src="./Assets/Img/dahi.png" alt="" class="w-50 mt-5"  />
+              <p>Nirmal Dahi</p>
+              <p>&#8377;<del>40</del> <span class="ml-3 text-success">&#8377;35</span></p>
+              <button type="button" class="buy btn btn-primary" data-toggle="modal" data-target="#Dahi">
+                View
+              </button>
+            </div>
+            <div class="carousel-cell text-center">
+              <img src="./Assets/Img/dahi.png" alt="" class="w-50 mt-5" />
+              <p>Nirmal Dahi</p>
+              <p>&#8377;<del>40</del> <span class="ml-3 text-success">&#8377;35</span></p>
+              <button type="button" class="buy btn btn-primary" data-toggle="modal" data-target="#Dahi">
+                View
+              </button>
+            </div>
+          </div>
+
+          <!-- ***********************************Ghee********************************************************* -->
+
+          <div class="main-carousel col-md-12" id="ghee">
+            <div class="carousel-cell text-center">
+              <img src="./Assets/Img/ghee.png" alt="" class="w-50 mt-5" />
+              <p>Nirmal Ghee</p>
+              <p>&#8377;<del>80</del> <span class="ml-3 text-success">&#8377;70</span></p>
+              <button type="button" class="buy btn btn-primary" data-toggle="modal" data-target="#Ghee">
+                View
+              </button>
+            </div>
+            <div class="carousel-cell text-center">
+              <img src="./Assets/Img/ghee.png" alt="" class="w-50 mt-5" />
+              <p>Nirmal Ghee</p>
+              <p>&#8377;<del>80</del> <span class="ml-3 text-success">&#8377;70</span></p>
+              <button type="button" class="buy btn btn-primary" data-toggle="modal" data-target="#Ghee">
+                View
+              </button>
+            </div>
+            <div class="carousel-cell text-center">
+              <img src="./Assets/Img/ghee.png" alt="" class="w-50 mt-5" />
+              <p>Nirmal Ghee</p>
+              <p>&#8377;<del>80</del> <span class="ml-3 text-success">&#8377;70</span></p>
+              <button type="button" class="buy btn btn-primary" data-toggle="modal" data-target="#Ghee">
+                View
+              </button>
+            </div>
+            <div class="carousel-cell text-center">
+              <img src="./Assets/Img/ghee.png" alt="" class="w-50 mt-5"  />
+              <p>Nirmal Ghee</p>
+              <p>&#8377;<del>80</del> <span class="ml-3 text-success">&#8377;70</span></p>
+              <button type="button" class="buy btn btn-primary" data-toggle="modal" data-target="#Ghee">
+                View
+              </button>
+            </div>
+          </div>
+
+          <!-- ***********************************milkpowder********************************************************* -->
+
+          <div class="main-carousel col-md-12" id="mpowder">
+            <div class="carousel-cell text-center">
+              <img src="./Assets/Img/milkpoweder.png" alt="" class="w-50 mt-5"  />
+              <p>Nirmal Milk Powder</p>
+              <p>&#8377;<del>60</del> <span class="ml-3 text-success">&#8377;55</span></p>
+              <button type="button" class="buy btn btn-primary" data-toggle="modal" data-target="#Mpowder">
+                View
+              </button>
+            </div>
+            <div class="carousel-cell text-center">
+              <img src="./Assets/Img/milkpoweder.png" alt="" class="w-50 mt-5" />
+              <p>Nirmal Milk Powder</p>
+              <p>&#8377;<del>60</del> <span class="ml-3 text-success">&#8377;55</span></p>
+              <button type="button" class="buy btn btn-primary" data-toggle="modal" data-target="#Mpowder">
+                View
+              </button>
+            </div>
+            <div class="carousel-cell text-center">
+              <img src="./Assets/Img/milkpoweder.png" alt="" class="w-50 mt-5"  />
+              <p>Nirmal Milk Powder</p>
+              <p>&#8377;<del>60</del> <span class="ml-3 text-success">&#8377;55</span></p>
+              <button type="button" class="buy btn btn-primary" data-toggle="modal" data-target="#Mpowder">
+                View
+              </button>
+            </div>
+            <div class="carousel-cell text-center">
+              <img src="./Assets/Img/milkpoweder.png" alt="" class="w-50 mt-5"  />
+              <p>Nirmal Milk Powder</p>
+              <p>&#8377;<del>60</del> <span class="ml-3 text-success">&#8377;55</span></p>
+              <button type="button" class="buy btn btn-primary" data-toggle="modal" data-target="#Mpowder">
+                View
+              </button>
+            </div>
+          </div>
+          <!-- ***********************************spread********************************************************* -->
+
+          <div class="main-carousel col-md-12" id="spred">
+            <div class="carousel-cell text-center">
+              <img src="./Assets/Img/cheesespred.png" alt="" class="w-50" />
+              <p>Cheese Spred</p>
+              <p>&#8377;<del>180</del> <span class="ml-3 text-success">&#8377;170</span></p>
+              <button type="button" class="buy btn btn-primary" data-toggle="modal" data-target="#Cspred">
+                View
+              </button>
+            </div>
+            <div class="carousel-cell text-center">
+              <img src="./Assets/Img/cheesespred.png" alt="" class="w-50" />
+              <p>Cheese Spred</p>
+              <p>&#8377;<del>180</del> <span class="ml-3 text-success">&#8377;170</span></p>
+              <button type="button" class="buy btn btn-primary" data-toggle="modal" data-target="#Cspred">
+                View
+              </button>
+            </div>
+            <div class="carousel-cell text-center">
+              <img src="./Assets/Img/cheesespred.png" alt="" class="w-50" />
+              <p>Cheese Spred</p>
+              <p>&#8377;<del>180</del> <span class="ml-3 text-success">&#8377;170</span></p>
+              <button type="button" class="buy btn btn-primary" data-toggle="modal" data-target="#Cspred">
+                View
+              </button>
+            </div>
+            <div class="carousel-cell text-center">
+              <img src="./Assets/Img/cheesespred.png" alt="" class="w-50" />
+              <p>Cheese Spred</p>
+              <p>&#8377;<del>180</del> <span class="ml-3 text-success">&#8377;170</span></p>
+              <button type="button" class="buy btn btn-primary" data-toggle="modal" data-target="#Cspred">
+                View
+              </button>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+    <!-- Butter Modal -->
+    <div class="modal fade" id="Butter" data-backdrop="static" data-keyboard="false" tabindex="-1"
+      aria-labelledby="staticBackdropLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">Nirmal Butter</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body text-center p-0 mb-5">
+           <img src="./Assets/Img/product6.png" alt="" class="vimg w-50">
+           <h5 class="vpara">Butter</h5>
+           <p>10% OFF*</p>
+          <p>&#8377;<del>100</del> <span class="ml-3 text-success">&#8377;90</span</p>
+          <p>Packging: 100gm ,200gm</p>
+          <p>Composition: FAT-(80%), Citric Acid-(20%)</p>
+          <button class="btn btn-primary buy">Buy Now</button>
+          <button class="btn buy btn-primary"><i class="bi bi-cart-check-fill"></i></button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+     <!-- milk Modal -->
+     <div class="modal fade "  id="Milk"  data-backdrop="static" data-keyboard="false" tabindex="-1"
+     aria-labelledby="staticBackdropLabel" aria-hidden="true">
+     <div class="modal-dialog">
+       <div class="modal-content">
+         <div class="modal-header">
+           <h5 class="modal-title" id="staticBackdropLabel">Nirmal Milk</h5>
+           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+             <span aria-hidden="true">&times;</span>
+           </button>
+         </div>
+         <div class="modal-body text-center p-0 mb-5">
+          <img src="./Assets/Img/product5.png" alt="" class=" w-50">
+          <h5>Milk</h5>
+          <p>20% OFF*</p>
+         <p>&#8377;<del>50</del> <span class="ml-3 text-success">&#8377;45</span</p>
+         <p>Packging: 100gm ,200gm</p>
+         <p>Composition: FAT-(80%), Citric Acid-(20%)</p>
+         <button class="btn btn-primary buy">Buy Now</button>
+         <button class="btn buy btn-primary"><i class="bi bi-cart-check-fill"></i></button>
+         </div>
+       </div>
+     </div>
+   </div>
+
+   <!-- cheese Modal -->
+   <div class="modal fade "  id="Cheese"  data-backdrop="static" data-keyboard="false" tabindex="-1"
+   aria-labelledby="staticBackdropLabel" aria-hidden="true">
+   <div class="modal-dialog">
+     <div class="modal-content">
+       <div class="modal-header">
+         <h5 class="modal-title" id="staticBackdropLabel">Nirmal Cheese</h5>
+         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+           <span aria-hidden="true">&times;</span>
+         </button>
+       </div>
+       <div class="modal-body text-center p-0 mb-5">
+        <img src="./Assets/Img/acheese.png" alt="" class=" w-50">
+        <h5>Cheese</h5>
+        <p>10% OFF*</p>
+       <p>&#8377;<del>120</del> <span class="ml-3 text-success">&#8377;110</span</p>
+       <p>Packging: 100gm ,200gm</p>
+       <p>Composition: FAT-(80%), Citric Acid-(20%)</p>
+       <button class="btn btn-primary buy">Buy Now</button>
+       <button class="btn buy btn-primary"><i class="bi bi-cart-check-fill"></i></button>
+       </div>
+     </div>
+   </div>
+ </div>
+
+  <!-- Panner Modal -->
+  <div class="modal fade "  id="Panner"  data-backdrop="static" data-keyboard="false" tabindex="-1"
+  aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">Nirmal Panner</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body text-center p-0 mb-5">
+       <img src="./Assets/Img/panner.png" alt="" class=" w-50">
+       <h5>Panner</h5>
+       <p>10% OFF*</p>
+      <p>&#8377;<del>150</del> <span class="ml-3 text-success">&#8377;140</span</p>
+      <p>Packging: 100gm ,200gm</p>
+      <p>Composition: FAT-(80%), Citric Acid-(20%)</p>
+      <button class="btn btn-primary buy">Buy Now</button>
+      <button class="btn buy btn-primary"><i class="bi bi-cart-check-fill"></i></button>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <!-- Dahi Modal -->
+  <div class="modal fade "  id="Dahi"  data-backdrop="static" data-keyboard="false" tabindex="-1"
+  aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">Nirmal Dahi</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body text-center p-0 mb-5">
+       <img src="./Assets/Img/dahi.png" alt="" class=" w-50">
+       <h5>Dahi</h5>
+       <p>10% OFF*</p>
+      <p>&#8377;<del>40</del> <span class="ml-3 text-success">&#8377;35</span</p>
+      <p>Packging: 100gm ,200gm</p>
+      <p>Composition: FAT-(80%), Citric Acid-(20%)</p>
+      <button class="btn btn-primary buy">Buy Now</button>
+      <button class="btn buy btn-primary"><i class="bi bi-cart-check-fill"></i></button>
+      </div>
+    </div>
+  </div>
+</div>
+ <!-- Ghee Modal -->
+ <div class="modal fade "  id="Ghee"  data-backdrop="static" data-keyboard="false" tabindex="-1"
+ aria-labelledby="staticBackdropLabel" aria-hidden="true">
+ <div class="modal-dialog">
+   <div class="modal-content">
+     <div class="modal-header">
+       <h5 class="modal-title" id="staticBackdropLabel">Nirmal Ghee</h5>
+       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+         <span aria-hidden="true">&times;</span>
+       </button>
+     </div>
+     <div class="modal-body text-center p-0 mb-5">
+      <img src="./Assets/Img/ghee.png" alt="" class=" w-50">
+      <h5>Ghee</h5>
+      <p>10% OFF*</p>
+     <p>&#8377;<del>80</del> <span class="ml-3 text-success">&#8377;70</span</p>
+     <p>Packging: 100gm ,200gm</p>
+     <p>Composition: FAT-(80%), Citric Acid-(20%)</p>
+     <button class="btn btn-primary buy">Buy Now</button>
+     <button class="btn buy btn-primary"><i class="bi bi-cart-check-fill"></i></button>
+     </div>
+   </div>
+ </div>
+</div>
+
+ <!-- milkpowder Modal -->
+ <div class="modal fade "  id="Mpowder"  data-backdrop="static" data-keyboard="false" tabindex="-1"
+ aria-labelledby="staticBackdropLabel" aria-hidden="true">
+ <div class="modal-dialog">
+   <div class="modal-content">
+     <div class="modal-header">
+       <h5 class="modal-title" id="staticBackdropLabel">Nirmal Milk Powder</h5>
+       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+         <span aria-hidden="true">&times;</span>
+       </button>
+     </div>
+     <div class="modal-body text-center p-0 mb-5">
+      <img src="./Assets/Img/milkpoweder.png" alt="" class=" w-50">
+      <h5>Milk Powder</h5>
+      <p>10% OFF*</p>
+     <p>&#8377;<del>66</del> <span class="ml-3 text-success">&#8377;55</span</p>
+     <p>Packging: 100gm ,200gm</p>
+     <p>Composition: FAT-(80%), Citric Acid-(20%)</p>
+     <button class="btn btn-primary buy">Buy Now</button>
+     <button class="btn buy btn-primary"><i class="bi bi-cart-check-fill"></i></button>
+     </div>
+   </div>
+ </div>
+</div>
+
+ <!-- spread Modal -->
+ <div class="modal fade "  id="Cspred"  data-backdrop="static" data-keyboard="false" tabindex="-1"
+ aria-labelledby="staticBackdropLabel" aria-hidden="true">
+ <div class="modal-dialog">
+   <div class="modal-content">
+     <div class="modal-header">
+       <h5 class="modal-title" id="staticBackdropLabel">Nirmal Cheese Spred</h5>
+       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+         <span aria-hidden="true">&times;</span>
+       </button>
+     </div>
+     <div class="modal-body text-center p-0 mb-5">
+      <img src="./Assets/Img/cheesespred.png" alt="" class=" w-25">
+      <h5>Cheese Spred</h5>
+      <p>10% OFF*</p>
+     <p>&#8377;<del>180</del> <span class="ml-3 text-success">&#8377;170</span</p>
+     <p>Packging: 100gm ,200gm</p>
+     <p>Composition: FAT-(80%), Citric Acid-(20%)</p>
+     <button class="btn btn-primary buy">Buy Now</button>
+     <button class="btn buy btn-primary"><i class="bi bi-cart-check-fill"></i></button>
+     </div>
+   </div>
+ </div>
+</div>
+  </section>
+
+  <!-- Footer -->
+  <section>
+    <div class="container-fluid">
+      <div class="row pt-3 foot">
+        <div class="col-md-3 text-center">
+          <img src="./Assets/Img/diary-logo.png" alt="" class="footlogo" />
+        </div>
+        <div class="col-md-3 mt-3">
+          <h5 class="text-white mb-3">Contact US</h5>
+          <span class="footicon"><i class="bi bi-geo-alt-fill text-white"></i></span>
+          <p class="text-white p1 mt-3">
+            Ahmednagar <br />
+            Maharashtra,414604
+          </p>
+          <span class="footicon"><i class="bi bi-telephone-fill text-white"></i></span>
+          <p class="text-white p1">9089897878</p>
+          <span class="footicon"><i class="bi bi-envelope-plus-fill text-white"></i></span>
+          <p class="text-white p1">xyz123@gmail.com</p>
+        </div>
+        <div class="col-md-3 mt-3">
+          <h5 class="text-white">Links</h5>
+          <ul class="footlinks">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="Product.html">Products</a></li>
+            <li><a href="Project.html">Project</a></li>
+            <li><a href="Gallary.html">Gallary</a></li>
+            <li><a href="ContactUs.html">Contact US</a></li>
+            <li><a href="Blog.html">Blog</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3 mt-3">
+          <h5 class="text-white">Nirmal Diary</h5>
+          <p class="text-white mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis accusantium labore
+            inventore perspiciatis impedit sed non, esse nesciunt distinctio laborum.</p>
+
+          <span class="footicon1"><i class="bi bi-facebook"></i></span>
+          <span class="footicon1 ml-3"><i class="bi bi-instagram"></i></span>
+          <span class="footicon1 ml-3"><i class="bi bi-twitter"></i></span>
+          <span class="footicon1 ml-3"><i class="bi bi-youtube"></i></span>
+        </div>
+      </div>
+      <div class="row foot p-4 justify-content-center">
+        <div class="col-md-6 line p-3 text-center">
+          <p class="text-white">Copyright &copy; 2022 Diary name Lorem ipsum dolor sit amet .</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Bootstrap JS CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+    crossorigin="anonymous"></script>
+
+  <!-- jquery cdn -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <!-- flickticy cdn -->
+  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+  <!-- Animation cdn -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <!-- custome js -->
+  <script src="./Assets/JS/product.js"></script>
+  <script>
+    $(".main-carousel").flickity({
+      // options
+      cellAlign: "left",
+      contain: true,
+    });
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,159 @@
+/* Slider */
+.sliderimg{
+   height: 600px;
+   width: 100%;
+}
+.carousel-indicators li{
+   width: 12px;
+   height: 12px;
+   background-color: black;
+   margin-left: 10px;
+   border-radius: 50%;
+}
+.know a{
+   text-decoration: none;
+   color: white;
+}
+.carousel-caption{
+   top: 100px;
+}
+h1{
+   font-weight: bold;
+}
+/* About section */
+h3,h5{
+   font-weight: bold;
+}
+h5{
+   margin-top: 30px;
+}
+.about{
+    background-image: linear-gradient(360deg, #09e7e70d, white);
+}
+
+/* Product */
+.buy{
+   color: white;
+   border: none;
+   width: 76px;
+   border-radius: 5px;
+   transition: all 0.6s ease-in-out;
+   font-size: 13px;
+}
+.buy a{
+   color: white;
+   text-decoration: none;
+}
+.buy:hover{
+   text-decoration: none;
+   color: white;
+   background-color: black;
+}
+.Product{
+   padding:9px;
+   margin-top: -21px;
+}
+
+.carousel-cell {
+  width:25%;
+  height:300px;
+  margin-right: 10px;
+  background-color: rgb(194 251 238 / 31%);
+}
+.flickity-page-dots .dot {
+   display: none !important;
+}
+.flickity-button {
+   background-color: lavender !important;
+}
+.main-carousel{
+   height: 350px;
+}
+
+/* why chooose us */
+.whyicon i{
+   font-size: 25px;
+   color:rgb(6, 164, 255);
+}
+.wpara{
+   margin-top: 10px;
+   line-height:25px;
+}
+.why{
+   background-image: linear-gradient(360deg, #0dabe92d, transparent);
+}
+
+/* our clients */
+.client{
+   background-color:  azure;
+   border-bottom: 4px solid gold;
+}
+.clientlogo{
+   width: 100px;
+   height: 100px;
+}
+
+/* Blog */
+.blogimg{
+   width:100%;
+   height: 300px;
+   transition: all 0.9s ease-in-out;
+}
+.blogimg:hover{
+   transform: scale(1.1);
+
+}
+.btn:hover a{
+   text-decoration: none;
+}
+
+/* record */
+.record{
+   background-color: azure;
+   height: 200px;
+   text-align: center;
+   border-bottom: 4px solid gold;
+}
+.recordimg{
+   width: 100px;
+   height: 100px;
+   margin-bottom: 10px;
+   margin-top: 10px;
+}
+[data-aos][data-aos][data-aos-duration="400"], body[data-aos-duration="400"] [data-aos] {
+   transition-duration: .8s !important;
+}
+hr{
+   width: 70px;
+   height:2px;
+   background-color: rgba(0, 0, 0, 0.377);
+}
+
+
+
+@media(max-width:991px){
+   .sliderimg {
+      height: 400px;
+  }
+  .about1{
+     text-align: center;
+  }
+  .carousel-cell{
+     width: 33%;
+  }
+}
+@media(max-width:767px){
+   .carousel-cell{
+      width:50%;
+   }
+}
+@media(max-width:430px){
+   .carousel-cell{
+      width:100%;
+   }
+}
+@media(max-width:341px){
+   .sliderimg {
+      height:278px;
+  }
+}

@@ -1,0 +1,81 @@
+/* Blog */
+.blog{
+   background-image: url(../Img/milkback1.png);
+   background-size: 100% 100%;
+   height: 210px;
+}
+
+.blog1img{
+   border-radius: 20px;
+}
+.bpara{
+   line-height: 25px;
+   color: gray;
+}
+.bpara1{
+   color: rgb(253, 7, 142);
+   font-weight: bold;
+}
+.blogpara{
+   line-height: 29px;
+   color: gray;
+}
+.bpara2{
+   line-height: 29px;
+   color: gray;
+   font-style: italic;
+   border-left: 8px solid rgb(253, 7, 142);
+   padding-left: 20px;
+   font-size: 20px;
+
+}
+.sblogimg{
+   border-radius: 15px;
+   height: 200px;
+   width: 100%;
+}
+.subblog{
+   border-radius: 15px;
+   transition: all 0.5s ease-in-out;
+ 
+}
+.subblog:hover{
+   box-shadow: 0px 0px 10px 4px rgba(128, 128, 128, 0.411);
+   cursor: pointer;
+}
+.comment{
+   height:auto;
+   background-color: rgba(127, 255, 212, 0.219);
+}
+.cpara{
+   font-size: 11px;
+}
+.reply{
+   float: right;
+}
+.reply button{
+   background-image: linear-gradient(#e169ff,#4b00ff);
+   border: none;
+   width: 80px;
+   color: white;
+   height: 30px;
+}
+.comment1{
+   width: 90%;
+   margin-top: 70px;
+   padding: 50px;
+   border: none;
+   outline: none;
+   background-color: white;
+   margin-bottom: 30px;
+}
+.send{
+   float: right;
+   margin-right: 50px;
+   margin-bottom: 20px;
+   background-image: linear-gradient(#e169ff,#4b00ff);
+   border: none;
+   width: 80px;
+   color: white;
+   height: 30px;
+}

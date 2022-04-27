@@ -1,0 +1,43 @@
+/* Navbar CSS */
+.navbar{
+      background-color: black;
+      padding: 10px;
+}
+.logo{
+   width: 71px;
+   height: 43px;
+   margin-left:30px ;
+}
+.navbar-dark .navbar-nav .nav-link {
+   color: white;
+   margin-left:20px;
+   font-weight:500;
+}
+.navbar-dark .navbar-nav .nav-link:hover{
+   color: gold;
+}
+.icon{
+   position: relative;
+   top: 6px;
+   left: 16px;
+}
+.icon i{
+   font-size: 20px;
+   margin-left:13px;
+   cursor: pointer;
+   color: white;
+}
+.icon i:hover{
+   color:gold;
+}
+.navbar-dark .navbar-toggler {
+   color: white;
+   font-size: 29px;
+   border: none;
+}
+
+@media(max-width:991px){
+   .icon{
+      display:none;
+   }
+}

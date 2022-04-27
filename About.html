@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nirmal Diary</title>
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./Assets/CSS/navbar.css" />
+    <link rel="stylesheet" href="./Assets/CSS/style.css" />
+    <link rel="stylesheet" href="./Assets/CSS/footer.css" />
+    <link rel="stylesheet" href="./Assets/CSS/about.css" />
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./Assets/Img/diary-logo.png" type="image/x-icon" />
+    <!-- Bootstrap Icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" />
+    <!-- fontawosome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- flickticy cdn   -->
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css" />
+    <!-- Animation Cdn -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <section class="sticky-top">
+      <nav class="navbar navbar-expand-lg navbar-dark shadow">
+        <img src="./Assets/Img/diary-logo.png" alt="" class="logo" />
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span><i class="bi bi-list"></i></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto mx-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-warning" href="About.html">About US</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Product.html">Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Gallary.html">Gallary</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Project.html">Project</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="ContactUs.html">Contact Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Blog.html">Blog</a>
+            </li>
+            <span class="icon"><i class="bi bi-facebook"></i></span>
+            <span class="icon"><i class="bi bi-instagram"></i></span>
+            <span class="icon"><i class="bi bi-twitter"></i></span>
+          </ul>
+        </div>
+      </nav>
+    </section>
+    <!-- About Banner -->
+    <section>
+      <div class="container-fluid">
+        <div class="row aboutbanner">
+          <div class="col-12 p-5 mt-2">
+            <h3 class="mt-5 text-center">About <span class="text-warning">Us</span></h3>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About us -->
+    <section>
+      <div class="container" data-aos="fade-up">
+        <div class="row">
+          <div class="col-12 text-center mt-4 about1 p-4 shadow">
+            <!-- story -->
+            <h3>Our <span class="text-warning"> Story</span></h3>
+            <p class="aboutpara">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius provident error reiciendis modi numquam, eveniet ullam deserunt. Provident cum saepe rerum! Enim ratione praesentium vero esse nihil illum ad, inventore, aperiam
+              consequuntur vel libero beatae voluptatem doloribus fugit maxime nesciunt, iste amet odit et sint aliquam dignissimos ut fuga! Tempore, inventore ducimus. Quasi suscipit porro harum qui odit non ut labore reiciendis,
+              doloremque asperiores vel temporibus voluptates quisquam nesciunt alias magnam, ad nulla dolore. Temporibus eum quisquam nulla quaerat vero odio soluta aliquam ipsam quos
+            </p>
+            <p class="aboutpara">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius provident error reiciendis modi numquam, eveniet ullam deserunt. Provident cum saepe rerum! Enim ratione praesentium vero esse nihil illum ad, inventore, aperiam
+              consequuntur vel libero beatae voluptatem doloribus fugit maxime nesciunt, iste amet odit et sint aliquam dignissimos ut fuga! Tempore, inventore ducimus. Quasi suscipit porro harum qui odit non ut labore reiciendis,
+              doloremque asperiores vel temporibus voluptates quisquam nesciunt alias magnam, ad nulla dolore. Temporibus eum quisquam nulla quaerat vero odio soluta aliquam ipsam quos
+            </p>
+          </div>
+
+          <!-- Our Milestones -->
+          <div class="col-md-12 mt-5 p-4 text-center">
+            <h3>Our <span class="text-warning">Milestones</span></h3>
+            <div class="row justify-content-center mt-5 p-3 Milestones shadow">
+              <div class="col-md-2">
+                <span class="mileicon"><i class="bi bi-building" id="one"></i></span>
+                <p class="mt-4">2000-2004</p>
+              </div>
+              <div class="col-md-2">
+                <span class="mileicon"><i class="bi bi-droplet" id="two"></i></span>
+                <p class="mt-4">2005-2010</p>
+              </div>
+              <div class="col-md-2">
+                <span class="mileicon"><i class="bi bi-trophy" id="three"></i></span>
+                <p class="mt-4">2011-2015</p>
+              </div>
+              <div class="col-md-2">
+                <span class="mileicon"><i class="bi bi-lightbulb" id="four"></i></span>
+                <p class="mt-4">2016-2018</p>
+              </div>
+              <div class="col-md-2">
+                <span class="mileicon"><i class="bi bi-journal-album" id="five"></i></span>
+                <p class="mt-4">2021-present</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- show Milestones -->
+          <div class="col-md-12">
+            <div class="row">
+              <div class="col-md-12 showmile p-4">
+                <!-- 1st -->
+                <p class="showp one">
+                  <span class="font-weight-bold">2000:</span><br />
+                  Founded by Mr. Devendra Shah and his family in 1992, Parag is strategically located in the milk belts at Manchar, Maharashtra and Palamner, Andhra Pradesh. An initial milk procurement of 20 thousand litres per day
+                </p>
+
+                <p class="showp one">
+                  <span class="font-weight-bold">2003:</span><br />
+                  Product Introduction- Cow Milk
+                </p>
+
+                <!-- 2nd -->
+                <p class="showp two">
+                  <span class="font-weight-bold">2005:</span><br />
+                  Manchar VAP plant commissioned; production of ghee and butter under 'Gowardhan' brand
+                </p>
+                <p class="showp two">
+                  <span class="font-weight-bold">2006:</span><br />
+                  Product Introduction- Toned Milk
+                </p>
+                <p class="showp two">
+                  <span class="font-weight-bold">2007:</span><br />
+                  Product Introduction- Skim Milk Powder and Ghee
+                </p>
+                <p class="showp two">
+                  <span class="font-weight-bold">2008:</span><br />
+                  Cheese production on a small scale
+                </p>
+                <p class="showp two">
+                  <span class="font-weight-bold">2009:</span><br />
+                  Product Introduction- Dairy Whitener
+                </p>
+                <p class="showp two">
+                  <span class="font-weight-bold">2010:</span><br />
+                  Product Introduction- Cheese Powder
+                </p>
+
+                <!-- 3rd -->
+                <p class="showp three">
+                  <span class="font-weight-bold">2011:</span><br />
+                  Product Introduction- Whole Milk Powder and Butter
+                </p>
+                <p class="showp three">
+                  <span class="font-weight-bold">2012:</span><br />
+                  Product Introduction- Chaas
+                </p>
+                <p class="showp three">
+                  <span class="font-weight-bold">2013:</span><br />
+                  Became the largest exporters of dairy commodities from India with around 95% of products manufactured and exported
+                </p>
+                <p class="showp three">
+                  <span class="font-weight-bold">2014:</span><br />
+                  Launch of own dairy farm, Bhagyalakshmi, over 35 acres and housing 3000 cows making the average yield 25 litres per day
+                </p>
+                <p class="showp three">
+                  <span class="font-weight-bold">2015:</span><br />
+                  Established as the leading brand of Cheese in Food service business
+                </p>
+
+                <!-- 4th -->
+                <p class="showp four">
+                  <span class="font-weight-bold">2016:</span><br />
+                  Plan launched for Palamaner plant; launch of yoghurt and cheese products
+                </p>
+                <p class="showp four">
+                  <span class="font-weight-bold">2017:</span><br />
+                  Launch of UHT milk and paneer, "Pride of Cows" brand
+                </p>
+                <p class="showp four">
+                  <span class="font-weight-bold">2018:</span><br />
+                  Investment by IDFC Alternatives
+                </p>
+
+                <!-- 5th -->
+                <p class="showp five">
+                  <span class="font-weight-bold">2021:</span><br />
+                  Investment by IFC Launch of RTD brand "Topp Up"
+                </p>
+                <p class="showp five">
+                  <span class="font-weight-bold">2022:</span><br />
+                  Launch of Whey Products
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Our Mission -->
+    <section>
+      <div class="container-fluid">
+        <div class="row p-5 mt-4 missionback">
+          <div class="col-md-12">
+            <h3 class="text-center">Our <span class="text-warning">Mission</span></h3>
+
+            <div class="row overflow-hidden">
+              <div class="col-md-4 mt-4">
+                <div class="row">
+                  <div class="col-md-12 text-center" data-aos="fade-right">
+                    <img src="./Assets/Img/consumer.png" alt="" class="missionimg shadow" />
+                    <h5>Our Consumers</h5>
+                    <p>
+                      Should be able to trust our brands. This is why food quality is a fundamental requirement for Parag. We make every effort to ensure that our processes are safe, and that high quality standards are maintained throughout
+                      the supply chain.
+                    </p>
+                    <img src="./Assets/Img/farmer.png" alt="" class="missionimg shadow" />
+                    <h5>Partnership with the dairy farmers</h5>
+                    <p>
+                      We are working with dairy farmers to enrich their lives, and set new standards for sustainable dairy production. We want to use our resources in a sustainable manner. By having a long term environmental strategy we can
+                      help make this happen.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 text-center mt-4">
+                <img src="./Assets/Img/mission.png" alt="" class="w-50 missionmain" />
+              </div>
+              <div class="col-md-4 mt-4" data-aos="fade-left">
+                <div class="row">
+                  <div class="col-md-12 text-center">
+                    <img src="./Assets/Img/milk.png" alt="" class="missionimg shadow" />
+                    <h5>Dairy innovation</h5>
+                    <p>Focus on dairy innovation, enables us to produce an array of products that make milk moments nutritious, healthy, and enjoyable and we market them under well targeted portfolio of brands.</p>
+                    <img src="./Assets/Img/community.png" alt="" class="missionimg shadow" />
+                    <h5>Building long-term relationship with local communities</h5>
+                    <p>
+                      We strive to uphold respectful and constructive community relations, and contribute to the development of communities by building long-term relationships with people, businesses and organisations.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Award -->
+    <section>
+      <div class="container">
+        <div class="row mt-5 p-4 awardbanner shadow">
+          <div class="col-md-12">
+            <h3 class="text-center">Awards</h3>
+            <div class="row">
+              <div class="col-md-4 text-center mt-4">
+                <img src="./Assets/Img/award1.png" alt="" class="award" />
+                <h5>Best Dairy in 2021</h5>
+              </div>
+              <div class="col-md-4 text-center mt-4">
+                <img src="./Assets/Img/award2.png" alt="" class="award" />
+                <h5>Exelent Product</h5>
+              </div>
+              <div class="col-md-4 text-center mt-4">
+                <img src="./Assets/Img/award3.png" alt="" class="award" />
+                <h5>Maximum Products</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <section>
+      <div class="container-fluid">
+        <div class="row pt-3 foot mt-5">
+          <div class="col-md-3 text-center">
+            <img src="./Assets/Img/diary-logo.png" alt="" class="footlogo" />
+          </div>
+          <div class="col-md-3 mt-3">
+            <h5 class="text-white mb-3">Contact US</h5>
+            <span class="footicon"><i class="bi bi-geo-alt-fill text-white"></i></span>
+            <p class="text-white p1 mt-3">
+              Ahmednagar <br />
+              Maharashtra,414604
+            </p>
+            <span class="footicon"><i class="bi bi-telephone-fill text-white"></i></span>
+            <p class="text-white p1">9089897878</p>
+            <span class="footicon"><i class="bi bi-envelope-plus-fill text-white"></i></span>
+            <p class="text-white p1">xyz123@gmail.com</p>
+          </div>
+          <div class="col-md-3 mt-3">
+            <h5 class="text-white">Links</h5>
+            <ul class="footlinks">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="About.html">About</a></li>
+              <li><a href="Product.html">Products</a></li>
+              <li><a href="Project.html">Project</a></li>
+              <li><a href="Gallary.html">Gallary</a></li>
+              <li><a href="ContactUs.html">Contact US</a></li>
+              <li><a href="Blog.html">Blog</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3 mt-3">
+            <h5 class="text-white">Nirmal Diary</h5>
+            <p class="text-white mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis accusantium labore inventore perspiciatis impedit sed non, esse nesciunt distinctio laborum.</p>
+
+            <span class="footicon1"><i class="bi bi-facebook"></i></span>
+            <span class="footicon1 ml-3"><i class="bi bi-instagram"></i></span>
+            <span class="footicon1 ml-3"><i class="bi bi-twitter"></i></span>
+            <span class="footicon1 ml-3"><i class="bi bi-youtube"></i></span>
+          </div>
+        </div>
+        <div class="row foot p-4 justify-content-center">
+          <div class="col-md-6 line p-3 text-center">
+            <p class="text-white">Copyright &copy; 2022 Diary name Lorem ipsum dolor sit amet .</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Bootstrap JS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+
+    <!-- jquery cdn -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- flickticy cdn -->
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <!-- Animation cdn -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- custom js -->
+    <script src="./Assets/JS/about.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>

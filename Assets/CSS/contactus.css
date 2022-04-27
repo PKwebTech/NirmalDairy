@@ -1,0 +1,34 @@
+.address{
+background-image: url(../Img/address.jpg);
+height: 400px;
+background-size: 100% 100%;
+}
+.address1{
+   background-color: rgba(0, 0, 0, 0.5);
+   color: white;
+}
+h5,h6{
+   font-weight: bold;
+}
+.cinfo{
+   margin-top: -50px;
+   background-color: white;
+   height: auto;
+   position: relative;
+}
+input[type="text"]{
+   width: 50%;
+   padding:3px;
+   outline: none;
+}
+.contact1{
+   background-color: rgba(128, 128, 128, 0.075);
+}
+.contact2{
+   background-color:rgba(0, 60, 255, 0.555);
+   color: white;
+   
+}
+.contacticon{
+   float: left;
+}

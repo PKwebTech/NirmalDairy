@@ -1,0 +1,46 @@
+/* footer */
+.footlogo{
+   width: 100px;
+   height: 100px;
+   margin-top: 50px;
+}
+.foot{
+   background-color: rgb(2 0 0 / 82%);
+}
+.footicon{
+   float: left;
+}
+.p1{
+margin-left:24px;
+}
+.footlinks{
+   margin-left: -40px;
+}
+.footlinks li{
+   list-style: none;
+}
+.footlinks li a{
+   color: white;
+   text-decoration: none;
+   margin-top: 10px;
+}
+.footlinks li a:hover{
+   color: gold;
+}
+.footicon1 i{
+   color: white;
+   font-size: 20px;
+
+}
+.footicon1 i:hover{
+   color: gold;
+   cursor: pointer;
+}
+.foothr{
+   background-color: white;
+   height: 3px;
+}
+.line{
+   height:1px;
+   border-top:1px solid rgba(255, 255, 255, 0.295);
+}

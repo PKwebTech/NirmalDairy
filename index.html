@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nirmal Diary</title>
+  <!-- Bootstrap CDN -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+    integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="./Assets/CSS/navbar.css">
+  <link rel="stylesheet" href="./Assets/CSS/style.css">
+  <link rel="stylesheet" href="./Assets/CSS/footer.css">
+  <!-- favicon -->
+  <link rel="shortcut icon" href="./Assets/Img/diary-logo.png" type="image/x-icon">
+  <!-- Bootstrap Icon -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+  <!-- fontawosome cdn -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- flickticy cdn   -->
+  <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+  <!-- Animation Cdn -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+
+  <!-- Navbar -->
+  <section class="sticky-top">
+    <nav class="navbar navbar-expand-lg navbar-dark shadow">
+      <img src="./Assets/Img/diary-logo.png" alt="" class="logo">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span><i class="bi bi-list"></i></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto mx-auto">
+          <li class="nav-item active">
+            <a class="nav-link text-warning" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="About.html">About US</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Product.html">Products</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Gallary.html">Gallary</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Project.html">Project</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="ContactUs.html">Contact Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Blog.html">Blog</a>
+          </li>
+          <span class="icon"><i class="bi bi-facebook"></i></span>
+          <span class="icon"><i class="bi bi-instagram"></i></span>
+          <span class="icon"><i class="bi bi-twitter"></i></span>
+        </ul>
+      </div>
+    </nav>
+  </section>
+
+  <!-- slider -->
+  <section>
+    <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-aos="fade-up">
+          <img src="./Assets/Img/milkback1.png" class="d-block w-100 sliderimg" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h1 class="text-dark">Nirmal <span class="text-warning"> Dairy</span></h1>
+            <p class="mt-4 text-dark">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae repellendus
+              voluptas amet, fugit minus aspernatur cupiditate rerum culpa aut. Similique..</p>
+            <button class="btn btn-primary know"><a href="About.html
+              ">Know More</a></button>
+          </div>
+        </div>
+        <div class="carousel-item" data-aos="fade-up">
+          <img src="./Assets/Img/slider5.jpg" class="d-block w-100 sliderimg" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h1 class="text-dark mb-4">New <span class="text-warning"> Products</span></h1>
+            <img src="./Assets/Img/product1.png" alt="" class="w-25">
+            <img src="./Assets/Img/product2.png" alt="" class="w-25">
+            <img src="./Assets/Img/product3.png" alt="" class="w-25">
+          </div>
+        </div>
+        <div class="carousel-item" data-aos="fade-up">
+          <img src="./Assets/Img/slider1.jpg" class="d-block w-100 sliderimg" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev d-none" type="button" data-target="#carouselExampleCaptions"
+        data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </button>
+      <button class="carousel-control-next d-none" type="button" data-target="#carouselExampleCaptions"
+        data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </button>
+    </div>
+  </section>
+
+  <!-- About US -->
+  <section>
+    <div class="container-fluid">
+      <div class="row p-5 about mb-5 overflow-hidden">
+        <div class="col-md-12 mt-4">
+          <h3 class="text-center">ABOUT <span class="text-warning">US</span></h3>
+          <hr>
+        </div>
+        <div class="col-lg-4  about1" data-aos="fade-right">
+          <h5 class="text-danger"><i class="bi bi-pencil-square mr-2"></i>Background :</h5>
+          <p>Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Voluptate ipsum debitis <br> quam consequatur
+            recusandae laudantium <br> illum aspernatur nemo deleniti labore.</p>
+          <h5 class="text-warning"><i class="bi bi-bookmark-star-fill mr-2"></i>Capabilities :</h5>
+          <p>Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Voluptate ipsum debitis <br> quam consequatur
+            recusandae laudantium <br> illum aspernatur nemo deleniti labore.</p>
+
+
+        </div>
+        <div class="col-lg-4 about1">
+          <img src="./Assets/Img/building.png" alt="" class="w-100 mt-5 shadow rounded" data-aos="fade-up">
+        </div>
+        <div class="col-lg-4  about1" data-aos="fade-left">
+          <h5 class="text-success"><i class="bi bi-bullseye mr-2"></i>Company's Vision :</h5>
+          <p>Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Voluptate ipsum debitis <br> quam consequatur
+            recusandae laudantium <br> illum aspernatur nemo deleniti labore.</p>
+          <h5 class="text-primary"><i class="fa-solid fa-chart-pie mr-2"></i>Company's Mission :</h5>
+          <p>Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Voluptate ipsum debitis <br> quam consequatur
+            recusandae laudantium <br> illum aspernatur nemo deleniti labore.</p>
+
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- Our product -->
+  <section>
+    <div class="container">
+
+      <!-- 1st product -->
+      <div class="row">
+        <div class="col-md-12 mt-4 mb-5 ">
+          <h3 class="text-center">OUR <span class="text-warning">PRODUCTS</span></h3>
+          <hr>
+        </div>
+      </div>
+      <div class="row">
+        <div class="main-carousel col-md-12 " data-aos="fade-up">
+          <div class="carousel-cell groupCells shadow text-center">
+            <img src="./Assets/Img/product8.png" class="w-50 h-50" alt="...">
+            <h5 class="card-title text-center">Ice Cream <span class="text-success"><del class="text-muted"> &#8377;
+                  100.</del> &#8377;80.</span></h5>
+            <button class="buy btn btn-primary"><a href="Product.html">Buy Now</a></button>
+            <button class="buy btn btn-primary ml-3"><a href="Product.html"><i class="bi bi-cart-check-fill"></i></a></button>
+          </div>
+          <div class="carousel-cell groupCells shadow text-center">
+            <img src="./Assets/Img/product7.png" class="w-50 h-50" alt="...">
+            <h5 class="card-title text-center">Ice Cream <span class="text-success"><del class="text-muted"> &#8377;
+                  100.</del> &#8377;80.</span></h5>
+            <button class="buy btn btn-primary"><a href="Product.html">Buy Now</a></button>
+            <button class="buy btn btn-primary ml-3"><a href="Product.html"><i class="bi bi-cart-check-fill"></i></a></button>
+          </div>
+          <div class="carousel-cell groupCells shadow text-center">
+            <img src="./Assets/Img/product6.png" class="w-50 h-50" alt="...">
+            <h5 class="card-title text-center">Ice Cream <span class="text-success"><del class="text-muted"> &#8377;
+                  100.</del> &#8377;80.</span></h5>
+            <button class="buy btn btn-primary"><a href="Product.html">Buy Now</a></button>
+            <button class="buy btn btn-primary ml-3"><a href="Product.html"><i class="bi bi-cart-check-fill"></i></a></button>
+          </div>
+          <div class="carousel-cell groupCells shadow text-center">
+            <img src="./Assets/Img/product5.png" class="w-50 h-50" alt="...">
+            <h5 class="card-title text-center">Ice Cream <span class="text-success"><del class="text-muted"> &#8377;
+                  100.</del> &#8377;80.</span></h5>
+            <button class="buy btn btn-primary"><a href="Product.html">Buy Now</a></button>
+            <button class="buy btn btn-primary ml-3"><a href="Product.html"><i class="bi bi-cart-check-fill"></i></a></button>
+          </div>
+          <div class="carousel-cell groupCells shadow text-center">
+            <img src="./Assets/Img/product4.png" class="w-50 h-50" alt="...">
+            <h5 class="card-title text-center">Ice Cream <span class="text-success"><del class="text-muted"> &#8377;
+                  100.</del> &#8377;80.</span></h5>
+            <button class="buy btn btn-primary"><a href="Product.html">Buy Now</a></button>
+            <button class="buy btn btn-primary ml-3"><a href="Product.html"><i class="bi bi-cart-check-fill"></i></a></button>
+          </div>
+          <div class="carousel-cell groupCells shadow text-center">
+            <img src="./Assets/Img/product3.png" class="w-50 h-50" alt="...">
+            <h5 class="card-title text-center">Ice Cream <span class="text-success"><del class="text-muted"> &#8377;
+                  100.</del> &#8377;80.</span></h5>
+            <button class="buy btn btn-primary"><a href="Product.html">Buy Now</a></button>
+            <button class="buy btn btn-primary ml-3"><a href="Product.html"><i class="bi bi-cart-check-fill"></i></a></button>
+          </div>
+          <div class="carousel-cell groupCells shadow text-center">
+            <img src="./Assets/Img/product2.png" class="w-50 h-50" alt="...">
+            <h5 class="card-title text-center">Ice Cream <span class="text-success"><del class="text-muted"> &#8377;
+                  100.</del> &#8377;80.</span></h5>
+            <button class="buy btn btn-primary"><a href="Product.html">Buy Now</a></button>
+            <button class="buy btn btn-primary ml-3"><a href="Product.html"><i class="bi bi-cart-check-fill"></i></a></button>
+          </div>
+          <div class="carousel-cell groupCells shadow text-center">
+            <img src="./Assets/Img/product1.png" class="w-50 h-50" alt="...">
+            <h5 class="card-title text-center">Ice Cream <span class="text-success"><del class="text-muted"> &#8377;
+                  100.</del> &#8377;80.</span></h5>
+            <button class="buy btn btn-primary"><a href="Product.html">Buy Now</a></button>
+            <button class="buy btn btn-primary ml-3"><a href="Product.html"><i class="bi bi-cart-check-fill"></i></a></button>
+          </div>
+        </div>
+      </div>
+      <!-- 2nd product -->
+      <div class="row">
+        <div class="main-carousel col-md-12 " data-aos="fade-up">
+          <div class="carousel-cell groupCells shadow text-center">
+            <img src="./Assets/Img/product1.png" class="w-50 h-50" alt="...">
+            <h5 class="card-title text-center">Ice Cream <span class="text-success"><del class="text-muted"> &#8377;
+                  100.</del> &#8377;80.</span></h5>
+            <button class="buy btn btn-primary"><a href="Product.html">Buy Now</a></button>
+            <button class="buy btn btn-primary ml-3"><a href="Product.html"><i class="bi bi-cart-check-fill"></i></a></button>
+          </div>
+          <div class="carousel-cell groupCells shadow text-center">
+            <img src="./Assets/Img/product2.png" class="w-50 h-50" alt="...">
+            <h5 class="card-title text-center">Ice Cream <span class="text-success"><del class="text-muted"> &#8377;
+                  100.</del> &#8377;80.</span></h5>
+            <button class="buy btn btn-primary"><a href="Product.html">Buy Now</a></button>
+            <button class="buy btn btn-primary ml-3"><a href="Product.html"><i class="bi bi-cart-check-fill"></i></a></button>
+          </div>
+          <div class="carousel-cell groupCells shadow text-center">
+            <img src="./Assets/Img/product3.png" class="w-50 h-50" alt="...">
+            <h5 class="card-title text-center">Ice Cream <span class="text-success"><del class="text-muted"> &#8377;
+                  100.</del> &#8377;80.</span></h5>
+            <button class="buy btn btn-primary"><a href="Product.html">Buy Now</a></button>
+            <button class="buy btn btn-primary ml-3"><a href="Product.html"><i class="bi bi-cart-check-fill"></i></a></button>
+          </div>
+          <div class="carousel-cell groupCells shadow text-center">
+            <img src="./Assets/Img/product4.png" class="w-50 h-50" alt="...">
+            <h5 class="card-title text-center">Ice Cream <span class="text-success"><del class="text-muted"> &#8377;
+                  100.</del> &#8377;80.</span></h5>
+            <button class="buy btn btn-primary"><a href="Product.html">Buy Now</a></button>
+            <button class="buy btn btn-primary ml-3"><a href="Product.html"><i class="bi bi-cart-check-fill"></i></a></button>
+          </div>
+          <div class="carousel-cell groupCells shadow text-center">
+            <img src="./Assets/Img/product5.png" class="w-50 h-50" alt="...">
+            <h5 class="card-title text-center">Ice Cream <span class="text-success"><del class="text-muted"> &#8377;
+                  100.</del> &#8377;80.</span></h5>
+            <button class="buy btn btn-primary"><a href="Product.html">Buy Now</a></button>
+            <button class="buy btn btn-primary ml-3"><a href="Product.html"><i class="bi bi-cart-check-fill"></i></a></button>
+          </div>
+          <div class="carousel-cell groupCells shadow text-center">
+            <img src="./Assets/Img/product6.png" class="w-50 h-50" alt="...">
+            <h5 class="card-title text-center">Ice Cream <span class="text-success"><del class="text-muted"> &#8377;
+                  100.</del> &#8377;80.</span></h5>
+            <button class="buy btn btn-primary"><a href="Product.html">Buy Now</a></button>
+            <button class="buy btn btn-primary ml-3"><a href="Product.html"><i class="bi bi-cart-check-fill"></i></a></button>
+          </div>
+          <div class="carousel-cell groupCells shadow text-center">
+            <img src="./Assets/Img/product7.png" class="w-50 h-50" alt="...">
+            <h5 class="card-title text-center">Ice Cream <span class="text-success"><del class="text-muted"> &#8377;
+                  100.</del> &#8377;80.</span></h5>
+            <button class="buy btn btn-primary"><a href="Product.html">Buy Now</a></button>
+            <button class="buy btn btn-primary ml-3"><a href="Product.html"><i class="bi bi-cart-check-fill"></i></a></button>
+          </div>
+          <div class="carousel-cell groupCells shadow text-center">
+            <img src="./Assets/Img/product8.png" class="w-50 h-50" alt="...">
+            <h5 class="card-title text-center">Ice Cream <span class="text-success"><del class="text-muted"> &#8377;
+                  100.</del> &#8377;80.</span></h5>
+            <button class="buy btn btn-primary"><a href="Product.html">Buy Now</a></button>
+            <button class="buy btn btn-primary ml-3"><a href="Product.html"><i class="bi bi-cart-check-fill"></i></a></button>
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <!-- Why Choose Us -->
+  <section>
+    <div class="container-fluid">
+      <div class="row justify-content-center">
+        <div class="col-md-12 mt-4 mb-5 ">
+          <h3 class="text-center">WHY CHOOSE<span class="text-warning"> US</span></h3>
+          <hr>
+        </div>
+      </div>
+      <div class="row justify-content-center why mb-5 p-3 shadow" data-aos="fade-up">
+        <div class="col-md-3 text-center mt-3">
+          <span class="whyicon"><i class="bi bi-people"></i></span>
+          <h5>Expert Advisor</h5>
+          <p class="wpara">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, fugit expedita molestias
+            molestiae dolorum hic praesentium incidunt veritatis itaque nam omnis dolores tempore ratione nulla minima
+            tenetur? Recusandae, aliquid provident.</p>
+        </div>
+        <div class="col-md-3 text-center mt-3">
+          <span class="whyicon"><i class="fa-solid fa-users"></i></span>
+          <h5>Excellent Employee</h5>
+          <p class="wpara">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, fugit expedita molestias
+            molestiae dolorum hic praesentium incidunt veritatis itaque nam omnis dolores tempore ratione nulla minima
+            tenetur? Recusandae, aliquid provident.</p>
+        </div>
+        <div class="col-md-3 text-center mt-3">
+          <span class="whyicon"><i class="bi bi-graph-up-arrow"></i></span>
+          <h5>Market Analysis</h5>
+          <p class="wpara">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, fugit expedita molestias
+            molestiae dolorum hic praesentium incidunt veritatis itaque nam omnis dolores tempore ratione nulla minima
+            tenetur? Recusandae, aliquid provident.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <!-- Our clinets -->
+  <section>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 mt-4 mb-5 ">
+          <h3 class="text-center">OUR<span class="text-warning"> CLIENTS</span></h3>
+          <hr>
+        </div>
+      </div>
+      <div class="row p-5 client mb-4 justify-content-center shadow">
+        <div class="col-md-2 col-sm-3 text-center">
+          <img src="./Assets/Img/client1.png" alt="" class="clientlogo">
+        </div>
+        <div class="col-md-2 col-sm-3 text-center">
+          <img src="./Assets/Img/client2.png" alt="" class="clientlogo">
+        </div>
+        <div class="col-md-2 col-sm-3 text-center">
+          <img src="./Assets/Img/client3.png" alt="" class="clientlogo">
+        </div>
+        <div class="col-md-2 col-sm-3 text-center">
+          <img src="./Assets/Img/client4.png" alt="" class="clientlogo">
+        </div>
+        <div class="col-md-2 col-sm-3 text-center">
+          <img src="./Assets/Img/client5.png" alt="" class="clientlogo">
+        </div>
+        <div class="col-md-2 col-sm-3 text-center">
+          <img src="./Assets/Img/client6.png" alt="" class="clientlogo">
+        </div>
+      </div>
+  </section>
+
+
+  <!-- Records -->
+  <section>
+    <div class="container">
+      <div class="row p-3 mt-4">
+        <div class="col-md-12 mt-4 mb-5 ">
+          <h3 class="text-center">RECORDS</h3>
+          <hr>
+        </div>
+      </div>
+      <div class="row shadow">
+        <div class="col-md-3 record text-center">
+          <img src="./Assets/Img/record1.png" alt="" class="recordimg">
+          <h3 id="counter1">120000+</h3>
+          <p>Farmers</p>
+        </div>
+        <div class="col-md-3 record text-center">
+          <img src="./Assets/Img/record2.png" alt="" class="recordimg">
+          <h3 id="counter2">1 lac ltr</h3>
+          <p>Transport</p>
+        </div>
+        <div class="col-md-3 record text-center">
+          <img src="./Assets/Img/rcord3.png" alt="" class="recordimg">
+          <h3 id="counter3">1000+</h3>
+          <p>Product</p>
+        </div>
+        <div class="col-md-3 record text-center">
+          <img src="./Assets/Img/record4.png" alt="" class="recordimg">
+          <h3 id="counter4">10000+</h3>
+          <p>Happy Cusumers</p>
+        </div>
+
+
+      </div>
+    </div>
+  </section>
+  <!-- Blog -->
+  <section>
+    <div class="container">
+      <div class="row p-4 mt-5 mb-5 overflow-hidden">
+        <div class="col-md-12 mt-4 mb-5 ">
+          <h3 class="text-center ">Blogs</h3>
+          <hr>
+        </div>
+        <div class="col-md-6 mt-3" data-aos="fade-right">
+          <div class="overflow-hidden">
+            <img src="./Assets/Img/building4.jpg" alt="" class="blogimg">
+          </div>
+          <h5>Nirmal <span class="text-warning"> Dairy</span></h5>
+          <p>Date: 19 Apr 2022 11:00 AM</p>
+          <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam dolores assumenda rerum perspiciatis?
+            Minima quibusdam, iste accusamus ea, nihil fugit architecto debitis quia nisi tempore similique perferendis
+            repellendus nam eos nostrum laudantium vero officiis, dicta in. Quasi commodi qui libero, quos quas porro
+            mollitia provident, earum aliquam, a omnis. Id quod nam reiciendis, praesentium consequuntur, distinctio
+            voluptatibus corporis eum fugiat minima deleniti officiis, eveniet neque at reprehenderit totam error
+            assumenda omnis perferendis mollitia quam consectetur magnam! Sit et fuga nesciunt.</p>
+          <button class="btn btn-primary"><a href="Blog.html" class="text-white">Read More</a></button>
+        </div>
+        <div class="col-md-6 mt-3" data-aos="fade-left">
+          <div class="overflow-hidden">
+            <img src="./Assets/Img/building3.jpg" alt="" class="blogimg">
+            <h5>Nirmal <span class="text-warning"> Dairy</span></h5>
+          </div>
+          <p>Date: 20 Apr 2022 10:00 AM</p>
+          <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam dolores assumenda rerum perspiciatis?
+            Minima quibusdam, iste accusamus ea, nihil fugit architecto debitis quia nisi tempore similique perferendis
+            repellendus nam eos nostrum laudantium vero officiis, dicta in. Quasi commodi qui libero, quos quas porro
+            mollitia provident, earum aliquam, a omnis. Id quod nam reiciendis, praesentium consequuntur, distinctio
+            voluptatibus corporis eum fugiat minima deleniti officiis, eveniet neque at reprehenderit totam error
+            assumenda omnis perferendis mollitia quam consectetur magnam! Sit et fuga nesciunt.</p>
+            <button class="btn btn-primary"><a href="Blog.html" class="text-white">Read More</a></button>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Footer -->
+  <section>
+    <div class="container-fluid">
+      <div class="row  pt-3 foot">
+        <div class="col-md-3 text-center">
+          <img src="./Assets/Img/diary-logo.png" alt="" class="footlogo">
+        </div>
+        <div class="col-md-3 mt-3">
+          <h5 class="text-white mb-3">Contact US</h5>
+          <span class="footicon"><i class="bi bi-geo-alt-fill text-white"></i></span>
+          <p class="text-white p1 mt-3">Ahmednagar <br> Maharashtra,414604</p>
+          <span class="footicon"><i class="bi bi-telephone-fill text-white"></i></span>
+          <p class="text-white p1">9089897878</p>
+          <span class="footicon"><i class="bi bi-envelope-plus-fill text-white"></i></span>
+          <p class="text-white p1">xyz123@gmail.com</p>
+        </div>
+        <div class="col-md-3  mt-3">
+          <h5 class="text-white">Links</h5>
+          <ul class="footlinks">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="Product.html">Products</a></li>
+            <li><a href="Project.html">Project</a></li>
+            <li><a href="Gallary.html">Gallary</a></li>
+            <li><a href="ContactUs.html">Contact US</a></li>
+            <li><a href="Blog.html">Blog</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3  mt-3">
+          <h5 class="text-white">Nirmal Diary</h5>
+          <p class="text-white mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis accusantium labore
+            inventore perspiciatis impedit sed non, esse nesciunt distinctio laborum.</p>
+
+          <span class="footicon1"><i class="bi bi-facebook"></i></span>
+          <span class="footicon1 ml-3"><i class="bi bi-instagram"></i></span>
+          <span class="footicon1 ml-3"><i class="bi bi-twitter"></i></span>
+          <span class="footicon1 ml-3"><i class="bi bi-youtube"></i></span>
+        </div>
+      </div>
+      <div class="row foot p-4 justify-content-center">
+        <div class="col-md-6 line p-3 text-center">
+          <p class="text-white">Copyright &copy; 2022 Diary name Lorem ipsum dolor sit amet .</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- Bootstrap JS CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+    crossorigin="anonymous"></script>
+
+  <!-- jquery cdn -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <!-- flickticy cdn -->
+  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+  <!-- Animation cdn -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    $('.main-carousel').flickity({
+      // options
+      cellAlign: 'left',
+      contain: true,
+      autoPlay: 1900,
+      pauseAutoPlayOnHover: false
+    });
+  </script>
+  <script>
+    AOS.init();
+  </script>
+  <script>
+    var count1 = document.getElementById('counter1');
+    var count2 = document.getElementById('counter2');
+    var count3 = document.getElementById('counter3');
+    var count4 = document.getElementById('counter4');
+    var a = 0, b = 0, c = 0, d = 0;
+
+    setInterval(() => {
+      if (a <= 120000) {
+        count1.innerText = a + "+";
+        a++;
+      }
+    }, 0.1);
+
+    setInterval(() => {
+      if (b <= 100000) {
+        count2.innerText = b + "+";
+        b++;
+      }
+    }, 0.1);
+    setInterval(() => {
+      if (c <= 1000) {
+        count3.innerText = c + "+";
+        c++;
+      }
+    }, 0.01);
+    setInterval(() => {
+      if (d <= 10000) {
+        count4.innerText = d + "+";
+        d++;
+      }
+    }, 0.1);
+  </script>
+
+
+</body>
+
+</html>
